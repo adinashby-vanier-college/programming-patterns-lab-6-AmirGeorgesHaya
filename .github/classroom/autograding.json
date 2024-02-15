@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "kClosestTest1",
+      "setup": "gradle clean",
+      "run": "gradle test --tests LabSixTests.kClosestTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "kClosestTest2",
+      "setup": "",
+      "run": "gradle test --tests LabSixTests.kClosestTest2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "kClosestTest3",
+      "setup": "",
+      "run": "gradle test --tests LabSixTests.kClosestTest3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "kClosestTest4",
+      "setup": "",
+      "run": "gradle test --tests LabSixTests.kClosestTest4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    }
+  ]
+}
